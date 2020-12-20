@@ -1,0 +1,25 @@
+body{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./123.jpg);
+}
+h1{
+    text-align: center;
+    background-color: black;
+}
+.vvod{
+    background-color: black;
+}
+.login{
+    text-align: center;
+}
+.password{
+    text-align: center;
+}
+.vhid{
+    text-align: center;
+}
