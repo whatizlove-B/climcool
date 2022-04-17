@@ -22,18 +22,18 @@ app.use('/api/auth', router)
 
 app.get('/', function(request, response) { 
     response.render('index', {
-    title: 'ХУЙ'
+    title: 'TITLE'
     })
 })
 
 app.get('/home', function(request, response){
     response.render('home',{
-        title:'sadfgfgd'
+        title:'Test_title'
     })
 }) 
 app.get('/create', function(request, response){
     response.render('create',{
-        title:'sadfgfgd'
+        title:'Test_title'
     })
 }) 
 
